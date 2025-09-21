@@ -1,0 +1,236 @@
+@import "../../../../../styles/extend.scss";
+@import "../../../../../styles/breakpoints";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-top: 10em;
+
+  .h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27.4074px;
+    line-height: 33px;
+    text-align: center;
+    color: #222124;
+    margin: 0;
+  }
+
+  .h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.7037px;
+    line-height: 160%;
+    color: #565656;
+    opacity: 0.85;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #ffffff;
+    opacity: 0.85;
+    max-width: 316px;
+    height: 57px;
+    margin: auto;
+    margin-top: 30px;
+    /* GRADIENT */
+    padding-left: 88.5px;
+    padding-right: 88.5px;
+    padding-top: 15.5px;
+    padding-bottom: 15.5px;
+    background: linear-gradient(92.66deg, #45319d 1.34%, #c372ef 107.89%);
+    border-radius: 58px;
+  }
+
+  .span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #45319d;
+    opacity: 0.85;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .terms {
+    width: 90%;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    color: #45319d;
+    opacity: 0.85;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    text-align: center;
+    color: #565656;
+    margin-top: 12px;
+  }
+}
+
+.commercial-container {
+  margin-top: 0;
+}
+
+.login-wrapper {
+  max-width: 100%;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 20px;
+  .button-continue {
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    margin: auto;
+    background: linear-gradient(92.66deg, #45319d 1.34%, #c372ef 107.89%);
+    border-radius: 58px;
+    height: auto;
+    padding: 7px 50px;
+    width: 100%;
+  }
+  .commercial-button-continue {
+    @extend .primary-button;
+    &:hover {
+      @extend .primary-button-hover;
+    }
+  }
+  :global {
+    .ant-form-item-explain-error {
+      text-align: left;
+    }
+  }
+}
+
+.phone-input {
+  input {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 4px 11px;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 0;
+    background-color: #ffffff;
+    background-image: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d9d9d9;
+    border-radius: 6px;
+    transition: all 0.2s;
+    &::placeholder {
+      color: rgba(0, 0, 0, 0.25);
+    }
+    &:hover {
+      border-color: #4096ff;
+    }
+    &:focus-visible {
+      border-color: #4096ff;
+      outline: none;
+    }
+    &:disabled {
+      color: rgba(0, 0, 0, 0.25);
+      background-color: rgba(33, 25, 25, 0.04);
+      border-color: #d9d9d9;
+      box-shadow: none;
+      cursor: not-allowed;
+      opacity: 1;
+    }
+  }
+  :global {
+    .PhoneInputCountry {
+      transform: scale(1.1);
+      margin-right: 10px;
+      margin-left: 5px;
+    }
+  }
+}
+
+.anime-button-continue {
+  @extend .primary-button;
+}
+
+.anime-span {
+  color: #313fae !important;
+}
+.commercial-span {
+  font-family: "Manrope", sans-serif;
+  color: #222124 !important;
+  margin: auto !important;
+  a {
+    @extend .primary-button;
+    background-clip: text !important;
+    -webkit-background-clip: text !important ;
+    -webkit-text-fill-color: transparent;
+
+    &:hover {
+      @extend .primary-button-hover;
+      background-clip: text !important;
+      -webkit-background-clip: text !important ;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+
+.sign-up-text {
+  text-align: center;
+  span {
+    color: #313fae;
+    cursor: pointer;
+  }
+}
+
+.forgot-password {
+  width: max-content;
+  cursor: pointer;
+}
+
+.commercial-sign-up-text {
+  font-family: "Manrope", sans-serif;
+  span {
+    @extend .primary-button;
+    background-clip: text !important;
+    -webkit-background-clip: text !important ;
+    -webkit-text-fill-color: transparent;
+
+    &:hover {
+      @extend .primary-button-hover;
+      background-clip: text !important;
+      -webkit-background-clip: text !important ;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+.commercial-forgot-password {
+  @extend .primary-button;
+  font-family: "Manrope", sans-serif;
+  background-clip: text !important;
+  -webkit-background-clip: text !important ;
+  -webkit-text-fill-color: transparent;
+
+  &:hover {
+    @extend .primary-button-hover;
+    background-clip: text !important;
+    -webkit-background-clip: text !important ;
+    -webkit-text-fill-color: transparent;
+  }
+}

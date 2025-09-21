@@ -1,0 +1,122 @@
+@import "../../styles/breakpoints";
+
+.rewards-section {
+  .card {
+    width: 95%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 20px;
+    border: none;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.09) !important;
+    box-shadow: 8.95px 8.21px 32.08px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 500ms ease !important;
+    &:hover {
+      box-shadow: 11.95px 13.21px 36.08px rgba(0, 0, 0, 0.09);
+    }
+  
+    @media screen and (max-width: $tablet) {
+      :global {
+        .ant-card-body {
+          padding: 14px;
+        }
+      }
+    }
+  }
+  .merchantImageContainer {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    @media screen and (max-width:768px) {
+      width: 100%;
+    }
+    img {
+      object-fit: contain;
+    }
+  }
+  
+  .progressContainer {
+    position: relative;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+
+  .merchantImage {
+    border-radius: 5px;
+    object-fit: cover;
+  }
+
+  .title {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222124;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    background: linear-gradient(92.66deg, #45319d 0.34%, #c372ef 26.89%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 8px;
+  }
+  h3 {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    background: linear-gradient(92.66deg, #45319d 0.34%, #c372ef 26.89%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  p {
+    margin: 0px 0px 10px 0px !important;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222124;
+  }
+
+  .rewardText {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .mobile-scroll {
+   width: 90%;
+
+   @media screen and (max-width: $tablet) {
+      overflow-x: scroll;
+    }
+  }
+}

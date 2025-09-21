@@ -1,0 +1,1013 @@
+export const testData = {
+    "id": 121120,
+    "companyId": 11111,
+    "programId": 11197,
+    "collectionId": null,
+    "cnameUrl": null,
+    "logoUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/7283c461-873e-4c5f-a11d-2be838f05eed.jpg",
+    "heroImageUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/7283c461-873e-4c5f-a11d-2be838f05eed.jpg",
+    "heroHeadline": "BEST BEST BEST",
+    "heroDesc": null,
+    "marketingHeadline": null,
+    "marketingDesc": null,
+    "name": "Store For FEb26 Program",
+    "description": "Get the best benefits",
+    "headerText": "You will enjoy these benefits",
+    "bodyText": "This is body text body text body text",
+    "enableFooter": true,
+    "companyName": "Faroverse Inc",
+    "websiteUrl": "https://faro.xyz",
+    "twitterUrl": null,
+    "discordUrl": null,
+    "mediumUrl": null,
+    "defaultLocaleId": "en_US",
+    "createdAt": "2023-03-15T06:31:59.053Z",
+    "createdBy": null,
+    "updatedAt": "2023-03-15T06:31:59.053Z",
+    "program": {
+        "name": "Feb26 Program1",
+        "description": "Feb26 Program1 description",
+        "tiers": [
+            {
+                "id": 11206,
+                "benefitsTier": [
+                    {
+                        "benefitId": 1,
+                        "benefit": {
+                            "id": 1,
+                            "title": "Nature video",
+                            "shortDescription": null,
+                            "description": "Nature description",
+                            "logoUrl": null,
+                            "previewResourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/b735fac2-06b3-430e-a5dd-b78c971ecffd.jpeg",
+                            "resourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/b735fac2-06b3-430e-a5dd-b78c971ecffd.jpeg",
+                            "disclaimer": null,
+                            "type": "video",
+                            "originalPrice": null,
+                            "discountPrice": null,
+                            "redemptionPerPass": null,
+                            "couponCode": null,
+                            "discountType": "flat",
+                            "unlimitedRedemption": false,
+                            "ownershipRequired": false,
+                            "startDate": null,
+                            "endDate": null,
+                            "status": "active",
+                            "currencyCode": null,
+                            "currencySymbol": null,
+                            "allowDownload": false,
+                            "multipleResource": false,
+                            "merchantId": null,
+                            "merchant": null,
+                            "BenefitResource": [
+                                {
+                                    "id": 1,
+                                    "name": "Nature.mp4",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "video",
+                                    "companyId": 11111,
+                                    "benefitId": 1,
+                                    "createdAt": "2023-01-13T18:19:51.295Z",
+                                    "updatedAt": "2023-01-13T18:19:51.295Z"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "benefitId": 2,
+                        "benefit": {
+                            "id": 2,
+                            "title": "Nature video 1",
+                            "shortDescription": null,
+                            "description": "Nature video description ",
+                            "logoUrl": null,
+                            "previewResourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/7a66577d-7e97-4f58-9af1-acbc150eb8b8.jpeg",
+                            "resourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/7a66577d-7e97-4f58-9af1-acbc150eb8b8.jpeg",
+                            "disclaimer": null,
+                            "type": "video",
+                            "originalPrice": null,
+                            "discountPrice": null,
+                            "redemptionPerPass": null,
+                            "couponCode": null,
+                            "discountType": "flat",
+                            "unlimitedRedemption": false,
+                            "ownershipRequired": false,
+                            "startDate": null,
+                            "endDate": null,
+                            "status": "active",
+                            "currencyCode": null,
+                            "currencySymbol": null,
+                            "allowDownload": false,
+                            "multipleResource": true,
+                            "merchantId": null,
+                            "merchant": null,
+                            "BenefitResource": [
+                                {
+                                    "id": 2,
+                                    "name": "Video 1.mp4",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "video",
+                                    "companyId": 11111,
+                                    "benefitId": 2,
+                                    "createdAt": "2023-01-13T18:24:02.052Z",
+                                    "updatedAt": "2023-01-13T18:24:02.052Z"
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Video 2.mp4",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "video",
+                                    "companyId": 11111,
+                                    "benefitId": 2,
+                                    "createdAt": "2023-01-13T18:24:02.052Z",
+                                    "updatedAt": "2023-01-13T18:24:02.052Z"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "benefitId": 4,
+                        "benefit": {
+                            "id": 4,
+                            "title": "Video 1",
+                            "shortDescription": null,
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Eget mi proin sed libero enim sed faucibus turpis. Tincidunt eget nullam non nisi est sit amet facilisis magna. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer. Arcu felis bibendum ut tristique. Pharetra magna ac placerat vestibulum lectus. Dictum fusce ut placerat orci. Bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida. Felis bibendum ut tristique et. Sapien eget mi proin sed libero enim sed. Amet risus nullam eget felis. Faucibus turpis in eu mi bibendum neque. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Eu scelerisque felis imperdiet proin. Condimentum lacinia quis vel eros donec ac odio tempor orci. Amet nisl purus in mollis nunc sed id semper. Morbi tristique senectus et netus. Id diam maecenas ultricies mi eget mauris pharetra et ultrices.\n\nLacinia at quis risus sed vulputate odio. Enim nulla aliquet porttitor lacus luctus accumsan. Condimentum lacinia quis vel eros donec ac. Sit amet massa vitae tortor condimentum lacinia. Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis. At volutpat diam ut venenatis tellus in metus. Condimentum vitae sapien pellentesque habitant morbi. Nisl tincidunt eget nullam non nisi est sit. Sed risus ultricies tristique nulla aliquet. Turpis egestas maecenas pharetra convallis posuere. Ornare massa eget egestas purus viverra accumsan in. Sapien et ligula ullamcorper malesuada proin libero nunc consequat. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Arcu non odio euismod lacinia at quis risus sed vulputate. Consequat semper viverra nam libero justo laoreet sit amet cursus. Elit eget gravida cum sociis natoque penatibus et magnis.\n\nVarius quam quisque id diam vel quam elementum pulvinar. Ut enim blandit volutpat maecenas volutpat. Porttitor eget dolor morbi non arcu risus quis. Enim neque volutpat ac tincidunt vitae. Sapien nec sagittis aliquam malesuada. Tincidunt id aliquet risus feugiat in. Feugiat sed lectus vestibulum mattis ullamcorper velit. Facilisis mauris sit amet massa vitae tortor condimentum lacinia quis. Proin sed libero enim sed faucibus turpis in. Ut sem nulla pharetra diam sit amet. Diam in arcu cursus euismod quis viverra nibh cras pulvinar. Urna nec tincidunt praesent semper. Massa eget egestas purus viverra. Faucibus nisl tincidunt eget nullam non nisi est sit amet. Pretium nibh ipsum consequat nisl vel pretium lectus quam. Semper quis lectus nulla at volutpat diam ut. Eget felis eget nunc lobortis. Lobortis scelerisque fermentum dui faucibus in ornare quam. Viverra orci sagittis eu volutpat odio. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed.\n\nIpsum consequat nisl vel pretium. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Mollis nunc sed id semper risus in hendrerit gravida. Mi quis hendrerit dolor magna eget est. Ullamcorper malesuada proin libero nunc. Vitae auctor eu augue ut lectus arcu bibendum at. Nunc mi ipsum faucibus vitae aliquet nec. Diam maecenas ultricies mi eget mauris pharetra et ultrices neque. Diam ut venenatis tellus in metus vulputate eu scelerisque. Et ultrices neque ornare aenean euismod elementum nisi quis. Metus vulputate eu scelerisque felis.\n\nMagna etiam tempor orci eu lobortis elementum nibh tellus molestie. Sed enim ut sem viverra aliquet eget sit amet tellus. Pretium aenean pharetra magna ac placerat. Lacus viverra vitae congue eu consequat ac felis donec. Tristique et egestas quis ipsum suspendisse ultrices. Integer malesuada nunc vel risus commodo viverra maecenas accumsan. Fermentum dui faucibus in ornare. Ultrices sagittis orci a scelerisque purus semper eget duis at. Egestas pretium aenean pharetra magna ac. Tristique sollicitudin nibh sit amet. Euismod nisi porta lorem mollis aliquam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Tortor at risus viverra adipiscing at in tellus integer. Bibendum at varius vel pharetra vel turpis nunc eget. Suscipit adipiscing bibendum est ultricies integer quis auctor elit sed. Id faucibus nisl tincidunt eget nullam.",
+                            "logoUrl": null,
+                            "previewResourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/8f683069-1b50-4954-9aa1-188c6c281325.jpeg",
+                            "resourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/8f683069-1b50-4954-9aa1-188c6c281325.jpeg",
+                            "disclaimer": null,
+                            "type": "video",
+                            "originalPrice": null,
+                            "discountPrice": null,
+                            "redemptionPerPass": null,
+                            "couponCode": null,
+                            "discountType": "flat",
+                            "unlimitedRedemption": false,
+                            "ownershipRequired": false,
+                            "startDate": null,
+                            "endDate": null,
+                            "status": "active",
+                            "currencyCode": null,
+                            "currencySymbol": null,
+                            "allowDownload": false,
+                            "multipleResource": false,
+                            "merchantId": null,
+                            "merchant": null,
+                            "BenefitResource": [
+                                {
+                                    "id": 12,
+                                    "name": "df3c84cf-5721-4bc4-a4f6-f629a6ba7aea.mp4",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "video",
+                                    "companyId": 11111,
+                                    "benefitId": 4,
+                                    "createdAt": "2023-01-16T22:36:04.693Z",
+                                    "updatedAt": "2023-01-16T22:36:04.693Z"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "benefitId": 83,
+                        "benefit": {
+                            "id": 83,
+                            "title": "One Time Limited Benefit",
+                            "shortDescription": null,
+                            "description": "One Time Limited Benefit",
+                            "logoUrl": null,
+                            "previewResourceUrl": null,
+                            "resourceUrl": null,
+                            "disclaimer": null,
+                            "type": "coupon",
+                            "originalPrice": null,
+                            "discountPrice": 100,
+                            "redemptionPerPass": 1,
+                            "couponCode": null,
+                            "discountType": "percentage",
+                            "unlimitedRedemption": false,
+                            "ownershipRequired": false,
+                            "startDate": "2023-02-06T00:00:00.000Z",
+                            "endDate": "2023-03-30T00:00:00.000Z",
+                            "status": "active",
+                            "currencyCode": null,
+                            "currencySymbol": null,
+                            "allowDownload": false,
+                            "multipleResource": true,
+                            "merchantId": 111192,
+                            "merchant": {
+                                "id": 111192,
+                                "name": "IMF",
+                                "url": null,
+                                "description": "Experiences - sports",
+                                "logoUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/9197438f-8721-41f0-97f4-8ec65c41dfc8.png",
+                                "heroImageUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/016d11c5-f5bf-4c51-b239-d9bf93f8eaf1.png",
+                                "status": "active",
+                                "companyId": 11111,
+                                "createdAt": "2023-02-01T08:07:51.520Z",
+                                "updatedAt": "2023-02-01T08:34:11.062Z",
+                                "categoryId": 8,
+                                "defaultLocaleId": "en_US",
+                                "phoneNumber": null,
+                                "email": null,
+                                "defaultLocale": {
+                                    "localeId": "en_US",
+                                    "countryCode": "US",
+                                    "languageCode": "en",
+                                    "isSupported": true,
+                                    "createdAt": "2023-01-09T15:17:32.123Z",
+                                    "updatedAt": "2023-01-09T15:17:32.123Z"
+                                },
+                                "locales": [
+                                    {
+                                        "id": 1,
+                                        "merchantId": 111192,
+                                        "localeId": "es_US",
+                                        "name": "spanish name",
+                                        "url": null,
+                                        "description": "Spanish desc",
+                                        "logoUrl": null,
+                                        "heroImageUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/712a1679-fff9-410c-8efb-e82c17cb518b.png"
+                                    }
+                                ]
+                            },
+                            "BenefitResource": []
+                        }
+                    },
+                    {
+                        "benefitId": 84,
+                        "benefit": {
+                            "id": 84,
+                            "title": "test",
+                            "shortDescription": null,
+                            "description": "test",
+                            "logoUrl": null,
+                            "previewResourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/c332d412-71ea-45f3-95bd-10d5362b56d9.png",
+                            "resourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/c332d412-71ea-45f3-95bd-10d5362b56d9.png",
+                            "disclaimer": null,
+                            "type": "video",
+                            "originalPrice": null,
+                            "discountPrice": null,
+                            "redemptionPerPass": null,
+                            "couponCode": null,
+                            "discountType": "flat",
+                            "unlimitedRedemption": false,
+                            "ownershipRequired": false,
+                            "startDate": null,
+                            "endDate": null,
+                            "status": "active",
+                            "currencyCode": null,
+                            "currencySymbol": null,
+                            "allowDownload": false,
+                            "multipleResource": false,
+                            "merchantId": null,
+                            "merchant": null,
+                            "BenefitResource": [
+                                {
+                                    "id": 30,
+                                    "name": "b1331d70-0c5e-44d2-ba18-ed27c7df3160.mp4",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "video",
+                                    "companyId": 11111,
+                                    "benefitId": 84,
+                                    "createdAt": "2023-02-14T20:05:30.120Z",
+                                    "updatedAt": "2023-02-14T20:05:30.120Z"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "benefitId": 85,
+                        "benefit": {
+                            "id": 85,
+                            "title": "Faro Onboarding",
+                            "shortDescription": null,
+                            "description": "Onboarding video for Faro.",
+                            "logoUrl": null,
+                            "previewResourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/e61446a8-c16c-401b-a72f-4f8e63ada8d1.jpeg",
+                            "resourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/e61446a8-c16c-401b-a72f-4f8e63ada8d1.jpeg",
+                            "disclaimer": null,
+                            "type": "video",
+                            "originalPrice": null,
+                            "discountPrice": null,
+                            "redemptionPerPass": null,
+                            "couponCode": null,
+                            "discountType": "flat",
+                            "unlimitedRedemption": false,
+                            "ownershipRequired": false,
+                            "startDate": null,
+                            "endDate": null,
+                            "status": "active",
+                            "currencyCode": null,
+                            "currencySymbol": null,
+                            "allowDownload": true,
+                            "multipleResource": false,
+                            "merchantId": null,
+                            "merchant": null,
+                            "BenefitResource": [
+                                {
+                                    "id": 33,
+                                    "name": "84f73f7a-eaeb-41f8-83b5-e954c4d2130e.mp4",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "video",
+                                    "companyId": 11111,
+                                    "benefitId": 85,
+                                    "createdAt": "2023-02-27T05:55:25.674Z",
+                                    "updatedAt": "2023-02-27T05:55:25.674Z"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "benefitId": 86,
+                        "benefit": {
+                            "id": 86,
+                            "title": "Best Songs",
+                            "shortDescription": null,
+                            "description": "Best Songs to Enjoy with your coffee!",
+                            "logoUrl": null,
+                            "previewResourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/b17023b9-44ce-4ea3-b974-cdf1009937a5.jpg",
+                            "resourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/b17023b9-44ce-4ea3-b974-cdf1009937a5.jpg",
+                            "disclaimer": null,
+                            "type": "audio",
+                            "originalPrice": null,
+                            "discountPrice": null,
+                            "redemptionPerPass": null,
+                            "couponCode": null,
+                            "discountType": "flat",
+                            "unlimitedRedemption": false,
+                            "ownershipRequired": false,
+                            "startDate": null,
+                            "endDate": null,
+                            "status": "active",
+                            "currencyCode": null,
+                            "currencySymbol": null,
+                            "allowDownload": false,
+                            "multipleResource": true,
+                            "merchantId": null,
+                            "merchant": null,
+                            "BenefitResource": [
+                                {
+                                    "id": 59,
+                                    "name": "Track1.wav",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "audio",
+                                    "companyId": 11111,
+                                    "benefitId": 86,
+                                    "createdAt": "2023-02-27T22:40:18.135Z",
+                                    "updatedAt": "2023-02-27T22:40:18.135Z"
+                                },
+                                {
+                                    "id": 60,
+                                    "name": "Track2.wav",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "audio",
+                                    "companyId": 11111,
+                                    "benefitId": 86,
+                                    "createdAt": "2023-02-27T22:40:18.135Z",
+                                    "updatedAt": "2023-02-27T22:40:18.135Z"
+                                },
+                                {
+                                    "id": 61,
+                                    "name": "Track3.wav",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "audio",
+                                    "companyId": 11111,
+                                    "benefitId": 86,
+                                    "createdAt": "2023-02-27T22:40:18.135Z",
+                                    "updatedAt": "2023-02-27T22:40:18.135Z"
+                                },
+                                {
+                                    "id": 62,
+                                    "name": "Track4.wav",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "audio",
+                                    "companyId": 11111,
+                                    "benefitId": 86,
+                                    "createdAt": "2023-02-27T22:40:18.135Z",
+                                    "updatedAt": "2023-02-27T22:40:18.135Z"
+                                },
+                                {
+                                    "id": 63,
+                                    "name": "Track5.wav",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "audio",
+                                    "companyId": 11111,
+                                    "benefitId": 86,
+                                    "createdAt": "2023-02-27T22:40:18.135Z",
+                                    "updatedAt": "2023-02-27T22:40:18.135Z"
+                                },
+                                {
+                                    "id": 64,
+                                    "name": "Track 6",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "audio",
+                                    "companyId": 11111,
+                                    "benefitId": 86,
+                                    "createdAt": "2023-02-27T22:40:18.135Z",
+                                    "updatedAt": "2023-02-27T22:40:18.135Z"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "benefitId": 87,
+                        "benefit": {
+                            "id": 87,
+                            "title": "Test_27_FEB",
+                            "shortDescription": null,
+                            "description": "Testing",
+                            "logoUrl": null,
+                            "previewResourceUrl": null,
+                            "resourceUrl": null,
+                            "disclaimer": "testing",
+                            "type": "coupon",
+                            "originalPrice": null,
+                            "discountPrice": 14,
+                            "redemptionPerPass": 0,
+                            "couponCode": null,
+                            "discountType": "percentage",
+                            "unlimitedRedemption": true,
+                            "ownershipRequired": false,
+                            "startDate": "2023-02-27T00:00:00.000Z",
+                            "endDate": "2023-03-31T00:00:00.000Z",
+                            "status": "active",
+                            "currencyCode": null,
+                            "currencySymbol": null,
+                            "allowDownload": false,
+                            "multipleResource": true,
+                            "merchantId": 111188,
+                            "merchant": {
+                                "id": 111188,
+                                "name": "M1",
+                                "url": null,
+                                "description": "M1 desc",
+                                "logoUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/be72139c-08ee-4512-8d96-8d9567b69e47.png",
+                                "heroImageUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/d127a968-49d3-4209-b0fd-52d26eefad69.png",
+                                "status": "active",
+                                "companyId": 11111,
+                                "createdAt": "2023-01-30T12:48:28.248Z",
+                                "updatedAt": "2023-01-30T12:48:28.248Z",
+                                "categoryId": 2,
+                                "defaultLocaleId": "en_US",
+                                "phoneNumber": null,
+                                "email": null,
+                                "defaultLocale": {
+                                    "localeId": "en_US",
+                                    "countryCode": "US",
+                                    "languageCode": "en",
+                                    "isSupported": true,
+                                    "createdAt": "2023-01-09T15:17:32.123Z",
+                                    "updatedAt": "2023-01-09T15:17:32.123Z"
+                                },
+                                "locales": []
+                            },
+                            "BenefitResource": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 11202,
+                "benefitsTier": [
+                    {
+                        "benefitId": 83,
+                        "benefit": {
+                            "id": 83,
+                            "title": "One Time Limited Benefit",
+                            "shortDescription": null,
+                            "description": "One Time Limited Benefit",
+                            "logoUrl": null,
+                            "previewResourceUrl": null,
+                            "resourceUrl": null,
+                            "disclaimer": null,
+                            "type": "coupon",
+                            "originalPrice": null,
+                            "discountPrice": 100,
+                            "redemptionPerPass": 1,
+                            "couponCode": null,
+                            "discountType": "percentage",
+                            "unlimitedRedemption": false,
+                            "ownershipRequired": false,
+                            "startDate": "2023-02-06T00:00:00.000Z",
+                            "endDate": "2023-03-30T00:00:00.000Z",
+                            "status": "active",
+                            "currencyCode": null,
+                            "currencySymbol": null,
+                            "allowDownload": false,
+                            "multipleResource": true,
+                            "merchantId": 111192,
+                            "merchant": {
+                                "id": 111192,
+                                "name": "IMF",
+                                "url": null,
+                                "description": "Experiences - sports",
+                                "logoUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/9197438f-8721-41f0-97f4-8ec65c41dfc8.png",
+                                "heroImageUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/016d11c5-f5bf-4c51-b239-d9bf93f8eaf1.png",
+                                "status": "active",
+                                "companyId": 11111,
+                                "createdAt": "2023-02-01T08:07:51.520Z",
+                                "updatedAt": "2023-02-01T08:34:11.062Z",
+                                "categoryId": 8,
+                                "defaultLocaleId": "en_US",
+                                "phoneNumber": null,
+                                "email": null,
+                                "defaultLocale": {
+                                    "localeId": "en_US",
+                                    "countryCode": "US",
+                                    "languageCode": "en",
+                                    "isSupported": true,
+                                    "createdAt": "2023-01-09T15:17:32.123Z",
+                                    "updatedAt": "2023-01-09T15:17:32.123Z"
+                                },
+                                "locales": [
+                                    {
+                                        "id": 1,
+                                        "merchantId": 111192,
+                                        "localeId": "es_US",
+                                        "name": "spanish name",
+                                        "url": null,
+                                        "description": "Spanish desc",
+                                        "logoUrl": null,
+                                        "heroImageUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/712a1679-fff9-410c-8efb-e82c17cb518b.png"
+                                    }
+                                ]
+                            },
+                            "BenefitResource": []
+                        }
+                    },
+                    {
+                        "benefitId": 84,
+                        "benefit": {
+                            "id": 84,
+                            "title": "test",
+                            "shortDescription": null,
+                            "description": "test",
+                            "logoUrl": null,
+                            "previewResourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/c332d412-71ea-45f3-95bd-10d5362b56d9.png",
+                            "resourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/c332d412-71ea-45f3-95bd-10d5362b56d9.png",
+                            "disclaimer": null,
+                            "type": "video",
+                            "originalPrice": null,
+                            "discountPrice": null,
+                            "redemptionPerPass": null,
+                            "couponCode": null,
+                            "discountType": "flat",
+                            "unlimitedRedemption": false,
+                            "ownershipRequired": false,
+                            "startDate": null,
+                            "endDate": null,
+                            "status": "active",
+                            "currencyCode": null,
+                            "currencySymbol": null,
+                            "allowDownload": false,
+                            "multipleResource": false,
+                            "merchantId": null,
+                            "merchant": null,
+                            "BenefitResource": [
+                                {
+                                    "id": 30,
+                                    "name": "b1331d70-0c5e-44d2-ba18-ed27c7df3160.mp4",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "video",
+                                    "companyId": 11111,
+                                    "benefitId": 84,
+                                    "createdAt": "2023-02-14T20:05:30.120Z",
+                                    "updatedAt": "2023-02-14T20:05:30.120Z"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "benefitId": 85,
+                        "benefit": {
+                            "id": 85,
+                            "title": "Faro Onboarding",
+                            "shortDescription": null,
+                            "description": "Onboarding video for Faro.",
+                            "logoUrl": null,
+                            "previewResourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/e61446a8-c16c-401b-a72f-4f8e63ada8d1.jpeg",
+                            "resourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/e61446a8-c16c-401b-a72f-4f8e63ada8d1.jpeg",
+                            "disclaimer": null,
+                            "type": "video",
+                            "originalPrice": null,
+                            "discountPrice": null,
+                            "redemptionPerPass": null,
+                            "couponCode": null,
+                            "discountType": "flat",
+                            "unlimitedRedemption": false,
+                            "ownershipRequired": false,
+                            "startDate": null,
+                            "endDate": null,
+                            "status": "active",
+                            "currencyCode": null,
+                            "currencySymbol": null,
+                            "allowDownload": true,
+                            "multipleResource": false,
+                            "merchantId": null,
+                            "merchant": null,
+                            "BenefitResource": [
+                                {
+                                    "id": 33,
+                                    "name": "84f73f7a-eaeb-41f8-83b5-e954c4d2130e.mp4",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "video",
+                                    "companyId": 11111,
+                                    "benefitId": 85,
+                                    "createdAt": "2023-02-27T05:55:25.674Z",
+                                    "updatedAt": "2023-02-27T05:55:25.674Z"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "benefitId": 86,
+                        "benefit": {
+                            "id": 86,
+                            "title": "Best Songs",
+                            "shortDescription": null,
+                            "description": "Best Songs to Enjoy with your coffee!",
+                            "logoUrl": null,
+                            "previewResourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/b17023b9-44ce-4ea3-b974-cdf1009937a5.jpg",
+                            "resourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/b17023b9-44ce-4ea3-b974-cdf1009937a5.jpg",
+                            "disclaimer": null,
+                            "type": "audio",
+                            "originalPrice": null,
+                            "discountPrice": null,
+                            "redemptionPerPass": null,
+                            "couponCode": null,
+                            "discountType": "flat",
+                            "unlimitedRedemption": false,
+                            "ownershipRequired": false,
+                            "startDate": null,
+                            "endDate": null,
+                            "status": "active",
+                            "currencyCode": null,
+                            "currencySymbol": null,
+                            "allowDownload": false,
+                            "multipleResource": true,
+                            "merchantId": null,
+                            "merchant": null,
+                            "BenefitResource": [
+                                {
+                                    "id": 59,
+                                    "name": "Track1.wav",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "audio",
+                                    "companyId": 11111,
+                                    "benefitId": 86,
+                                    "createdAt": "2023-02-27T22:40:18.135Z",
+                                    "updatedAt": "2023-02-27T22:40:18.135Z"
+                                },
+                                {
+                                    "id": 60,
+                                    "name": "Track2.wav",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "audio",
+                                    "companyId": 11111,
+                                    "benefitId": 86,
+                                    "createdAt": "2023-02-27T22:40:18.135Z",
+                                    "updatedAt": "2023-02-27T22:40:18.135Z"
+                                },
+                                {
+                                    "id": 61,
+                                    "name": "Track3.wav",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "audio",
+                                    "companyId": 11111,
+                                    "benefitId": 86,
+                                    "createdAt": "2023-02-27T22:40:18.135Z",
+                                    "updatedAt": "2023-02-27T22:40:18.135Z"
+                                },
+                                {
+                                    "id": 62,
+                                    "name": "Track4.wav",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "audio",
+                                    "companyId": 11111,
+                                    "benefitId": 86,
+                                    "createdAt": "2023-02-27T22:40:18.135Z",
+                                    "updatedAt": "2023-02-27T22:40:18.135Z"
+                                },
+                                {
+                                    "id": 63,
+                                    "name": "Track5.wav",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "audio",
+                                    "companyId": 11111,
+                                    "benefitId": 86,
+                                    "createdAt": "2023-02-27T22:40:18.135Z",
+                                    "updatedAt": "2023-02-27T22:40:18.135Z"
+                                },
+                                {
+                                    "id": 64,
+                                    "name": "Track 6",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "audio",
+                                    "companyId": 11111,
+                                    "benefitId": 86,
+                                    "createdAt": "2023-02-27T22:40:18.135Z",
+                                    "updatedAt": "2023-02-27T22:40:18.135Z"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "benefitId": 87,
+                        "benefit": {
+                            "id": 87,
+                            "title": "Test_27_FEB",
+                            "shortDescription": null,
+                            "description": "Testing",
+                            "logoUrl": null,
+                            "previewResourceUrl": null,
+                            "resourceUrl": null,
+                            "disclaimer": "testing",
+                            "type": "coupon",
+                            "originalPrice": null,
+                            "discountPrice": 14,
+                            "redemptionPerPass": 0,
+                            "couponCode": null,
+                            "discountType": "percentage",
+                            "unlimitedRedemption": true,
+                            "ownershipRequired": false,
+                            "startDate": "2023-02-27T00:00:00.000Z",
+                            "endDate": "2023-03-31T00:00:00.000Z",
+                            "status": "active",
+                            "currencyCode": null,
+                            "currencySymbol": null,
+                            "allowDownload": false,
+                            "multipleResource": true,
+                            "merchantId": 111188,
+                            "merchant": {
+                                "id": 111188,
+                                "name": "M1",
+                                "url": null,
+                                "description": "M1 desc",
+                                "logoUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/be72139c-08ee-4512-8d96-8d9567b69e47.png",
+                                "heroImageUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/d127a968-49d3-4209-b0fd-52d26eefad69.png",
+                                "status": "active",
+                                "companyId": 11111,
+                                "createdAt": "2023-01-30T12:48:28.248Z",
+                                "updatedAt": "2023-01-30T12:48:28.248Z",
+                                "categoryId": 2,
+                                "defaultLocaleId": "en_US",
+                                "phoneNumber": null,
+                                "email": null,
+                                "defaultLocale": {
+                                    "localeId": "en_US",
+                                    "countryCode": "US",
+                                    "languageCode": "en",
+                                    "isSupported": true,
+                                    "createdAt": "2023-01-09T15:17:32.123Z",
+                                    "updatedAt": "2023-01-09T15:17:32.123Z"
+                                },
+                                "locales": []
+                            },
+                            "BenefitResource": []
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "locales": [
+        {
+            "id": 1,
+            "storefrontId": 121120,
+            "localeId": "es_US",
+            "logoUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/7283c461-873e-4c5f-a11d-2be838f05eed.jpg",
+            "name": "Spanish FARO",
+            "description": "Spanish Desc",
+            "headerText": "Spanish header text for first store front",
+            "bodyText": "first storefront body text",
+            "companyName": "Spanih FARO INC",
+            "websiteUrl": null,
+            "twitterUrl": null,
+            "discordUrl": null,
+            "mediumUrl": null,
+            "heroImageUrl": null,
+            "heroHeadline": null,
+            "heroDesc": null,
+            "marketingHeadline": null,
+            "marketingDesc": null,
+            "createdAt": "2023-03-15T06:31:59.053Z"
+        }
+    ],
+    "collections": [
+        {
+            "id": 1,
+            "storefrontId": 121120,
+            "collectionId": 111299,
+            "createdAt": "2023-03-15T06:31:59.053Z",
+            "collection": {
+                "id": 111299,
+                "name": "LJ_TD_23_Feb",
+                "collectionType": "tokenDrop",
+                "description": null,
+                "imageURL": "https://faro-assets.s3.amazonaws.com/collection-files/b31bbfd2-7fa3-448a-ab16-3424cf39a859.png",
+                "blockChain": "mumbai",
+                "signerAddress": "0x44A7eF52DA9e9A0F6336Ce3a21643e882017D51b",
+                "contractAddress": "0xd2D1d44Bff86e415049ddE19837DC5Fb2C51fB66",
+                "origin": "Faro",
+                "tierConnected": true,
+                "bannerImage": null,
+                "defaultLocale": {
+                    "localeId": "en_US",
+                    "countryCode": "US",
+                    "languageCode": "en",
+                    "isSupported": true,
+                    "createdAt": "2023-01-09T15:17:32.123Z",
+                    "updatedAt": "2023-01-09T15:17:32.123Z"
+                },
+                "biconomyTransferMethodId": "d6de56e5-3e69-44b6-b177-bfcc2bf660b8",
+                "nfts": [
+                    {
+                        "id": 111308,
+                        "companyId": 11181,
+                        "collectionId": 111321,
+                        "createdBy": "0x3a4E1D93da29d2d5ab973735E0d0bCbcBd191883",
+                        "blockChain": "mumbai",
+                        "contractAddress": "0x1aE7bf4E4bf617565ba8E7cD8FCcD6d1C7DBb2D8",
+                        "name": "NFT 1",
+                        "description": "NFT 1",
+                        "imageURL": "https://faro-assets.s3.amazonaws.com/nft-files/975679fa-20cf-4c31-bf29-8f69ee661696.png",
+                        "ipfsImageURL": "ipfs://QmTtjWBV2Did23ywLZygZQeq2vHbW88ddFCr2gU6QBJD4n",
+                        "bannerImage": "https://faro-assets.s3.amazonaws.com/nft-files/58219943-9564-4ba4-90cc-f89027c9bb99.png",
+                        "previewImageURL": "",
+                        "permaLink": "https://testnets.opensea.io/assets/mumbai/0x1aE7bf4E4bf617565ba8E7cD8FCcD6d1C7DBb2D8/0",
+                        "supply": 100,
+                        "attributes": [],
+                        "tokenId": "0",
+                        "status": "Minted",
+                        "tierConnected": true,
+                        "canDisconnect": true,
+                        "transferred": 0,
+                        "createdAt": "2023-03-13T05:37:04.438Z",
+                        "updatedAt": "2023-03-13T06:17:19.044Z",
+                        "tierId": 11204,
+                        "batchId": null,
+                        "defaultLocaleId": "en_US",
+                        "isRevealed": true
+                    }
+                ],
+                "locales": [],
+                "collectionBenefits": [
+                    {
+                        "benefit": {
+                            "BenefitResource": [
+                                {
+                                    "id": 12,
+                                    "name": "df3c84cf-5721-4bc4-a4f6-f629a6ba7aea.mp4",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "video",
+                                    "companyId": 11111,
+                                    "benefitId": 4,
+                                    "createdAt": "2023-01-16T22:36:04.693Z",
+                                    "updatedAt": "2023-01-16T22:36:04.693Z"
+                                }
+                            ],
+                            "id": 4,
+                            "title": "Video 1",
+                            "shortDescription": null,
+                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Eget mi proin sed libero enim sed faucibus turpis. Tincidunt eget nullam non nisi est sit amet facilisis magna. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer. Arcu felis bibendum ut tristique. Pharetra magna ac placerat vestibulum lectus. Dictum fusce ut placerat orci. Bibendum ut tristique et egestas quis ipsum suspendisse ultrices gravida. Felis bibendum ut tristique et. Sapien eget mi proin sed libero enim sed. Amet risus nullam eget felis. Faucibus turpis in eu mi bibendum neque. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Eu scelerisque felis imperdiet proin. Condimentum lacinia quis vel eros donec ac odio tempor orci. Amet nisl purus in mollis nunc sed id semper. Morbi tristique senectus et netus. Id diam maecenas ultricies mi eget mauris pharetra et ultrices.\n\nLacinia at quis risus sed vulputate odio. Enim nulla aliquet porttitor lacus luctus accumsan. Condimentum lacinia quis vel eros donec ac. Sit amet massa vitae tortor condimentum lacinia. Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis. At volutpat diam ut venenatis tellus in metus. Condimentum vitae sapien pellentesque habitant morbi. Nisl tincidunt eget nullam non nisi est sit. Sed risus ultricies tristique nulla aliquet. Turpis egestas maecenas pharetra convallis posuere. Ornare massa eget egestas purus viverra accumsan in. Sapien et ligula ullamcorper malesuada proin libero nunc consequat. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Arcu non odio euismod lacinia at quis risus sed vulputate. Consequat semper viverra nam libero justo laoreet sit amet cursus. Elit eget gravida cum sociis natoque penatibus et magnis.\n\nVarius quam quisque id diam vel quam elementum pulvinar. Ut enim blandit volutpat maecenas volutpat. Porttitor eget dolor morbi non arcu risus quis. Enim neque volutpat ac tincidunt vitae. Sapien nec sagittis aliquam malesuada. Tincidunt id aliquet risus feugiat in. Feugiat sed lectus vestibulum mattis ullamcorper velit. Facilisis mauris sit amet massa vitae tortor condimentum lacinia quis. Proin sed libero enim sed faucibus turpis in. Ut sem nulla pharetra diam sit amet. Diam in arcu cursus euismod quis viverra nibh cras pulvinar. Urna nec tincidunt praesent semper. Massa eget egestas purus viverra. Faucibus nisl tincidunt eget nullam non nisi est sit amet. Pretium nibh ipsum consequat nisl vel pretium lectus quam. Semper quis lectus nulla at volutpat diam ut. Eget felis eget nunc lobortis. Lobortis scelerisque fermentum dui faucibus in ornare quam. Viverra orci sagittis eu volutpat odio. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed.\n\nIpsum consequat nisl vel pretium. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Mollis nunc sed id semper risus in hendrerit gravida. Mi quis hendrerit dolor magna eget est. Ullamcorper malesuada proin libero nunc. Vitae auctor eu augue ut lectus arcu bibendum at. Nunc mi ipsum faucibus vitae aliquet nec. Diam maecenas ultricies mi eget mauris pharetra et ultrices neque. Diam ut venenatis tellus in metus vulputate eu scelerisque. Et ultrices neque ornare aenean euismod elementum nisi quis. Metus vulputate eu scelerisque felis.\n\nMagna etiam tempor orci eu lobortis elementum nibh tellus molestie. Sed enim ut sem viverra aliquet eget sit amet tellus. Pretium aenean pharetra magna ac placerat. Lacus viverra vitae congue eu consequat ac felis donec. Tristique et egestas quis ipsum suspendisse ultrices. Integer malesuada nunc vel risus commodo viverra maecenas accumsan. Fermentum dui faucibus in ornare. Ultrices sagittis orci a scelerisque purus semper eget duis at. Egestas pretium aenean pharetra magna ac. Tristique sollicitudin nibh sit amet. Euismod nisi porta lorem mollis aliquam. Tincidunt tortor aliquam nulla facilisi cras fermentum. Tortor at risus viverra adipiscing at in tellus integer. Bibendum at varius vel pharetra vel turpis nunc eget. Suscipit adipiscing bibendum est ultricies integer quis auctor elit sed. Id faucibus nisl tincidunt eget nullam.",
+                            "logoUrl": null,
+                            "previewResourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/8f683069-1b50-4954-9aa1-188c6c281325.jpeg",
+                            "resourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/8f683069-1b50-4954-9aa1-188c6c281325.jpeg",
+                            "type": "video",
+                            "ownershipRequired": false,
+                            "allowDownload": false,
+                            "multipleResource": false
+                        }
+                    },
+                    {
+                        "benefit": {
+                            "BenefitResource": [
+                                {
+                                    "id": 33,
+                                    "name": "84f73f7a-eaeb-41f8-83b5-e954c4d2130e.mp4",
+                                    "description": null,
+                                    "previewResourceUrl": null,
+                                    "resourceUrl": null,
+                                    "author": null,
+                                    "type": "video",
+                                    "companyId": 11111,
+                                    "benefitId": 85,
+                                    "createdAt": "2023-02-27T05:55:25.674Z",
+                                    "updatedAt": "2023-02-27T05:55:25.674Z"
+                                }
+                            ],
+                            "id": 85,
+                            "title": "Faro Onboarding",
+                            "shortDescription": null,
+                            "description": "Onboarding video for Faro.",
+                            "logoUrl": null,
+                            "previewResourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/e61446a8-c16c-401b-a72f-4f8e63ada8d1.jpeg",
+                            "resourceUrl": "https://faro-assets.s3.amazonaws.com/benefit-files/e61446a8-c16c-401b-a72f-4f8e63ada8d1.jpeg",
+                            "type": "video",
+                            "ownershipRequired": false,
+                            "allowDownload": true,
+                            "multipleResource": false
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "marketingData": [
+        {
+            "name": "First Line",
+            "description": "Benefits that follows with first line",
+            "status": "Live",
+            "tiers": [
+                {
+                    "tierId": 11110,
+                    "tier": {
+                        "name": "p1T1",
+                        "id": 11110
+                    }
+                },
+                {
+                    "tierId": 11112,
+                    "tier": {
+                        "name": "Tier1",
+                        "id": 11112
+                    }
+                }
+            ],
+            "locales": [
+                {
+                    "id": 1,
+                    "programMarketingId": 1,
+                    "localeId": "es_US",
+                    "name": "Spanish first line",
+                    "description": "spanish desc",
+                    "createdAt": "2023-03-15T06:31:59.053Z",
+                    "updatedAt": "2023-03-15T06:31:59.053Z"
+                }
+            ]
+        }
+    ]
+}

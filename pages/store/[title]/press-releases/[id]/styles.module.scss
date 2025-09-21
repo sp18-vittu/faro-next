@@ -1,0 +1,54 @@
+@import "../../../../../styles/breakpoints";
+
+.wrapper {
+    width: 75%;
+    margin: 0 auto;
+
+    img {
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    @media screen and (max-width: $tablet) {
+        width: 100%;
+    }
+}
+
+.heading {
+    color: #333333;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.heroImage {
+    display: block;
+    margin: 0 auto;
+}
+
+.time {
+    font-size: 14px;
+    color: #666666;
+
+    span {
+        margin-right: 10px;
+    }
+}
+
+
+.divider {
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.action-btn-cont {
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.download-all {
+    width: max-content;
+    margin: 0px auto 20px auto;
+}

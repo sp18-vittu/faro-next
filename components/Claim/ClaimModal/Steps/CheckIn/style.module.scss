@@ -1,0 +1,50 @@
+@import "../../../../../styles/breakpoints";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 10em;
+
+    h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 33px;
+        text-align: center;
+        color: #222124;
+        margin: 0;
+    }
+
+    h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 160%;
+        color: #565656;
+        opacity: 0.85;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    button {
+        background: linear-gradient(92.66deg, #45319d 1.34%, #c372ef 107.89%);
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        width: 200px;
+        height: 52px !important;
+        margin-top: 18px;
+        @media screen and (max-width: $tablet) {
+          font-size: 16px;
+          line-height: 19px;
+          width: 175px;
+          height: 40px;
+        }
+      }
+}

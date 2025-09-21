@@ -1,0 +1,163 @@
+@import "../../styles/breakpoints";
+
+.rewards-section {
+  h2 {
+    margin: 0;
+    font-family: "Integral CF";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    background: linear-gradient(92.66deg, #45319d 0.34%, #c372ef 26.89%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 8px;
+    @media screen and (max-width: $tablet) {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+  h3 {
+    margin: 0;
+    font-family: "Integral CF";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    background: linear-gradient(92.66deg, #45319d 0.34%, #c372ef 26.89%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 8px;
+    text-align: center;
+    @media screen and (max-width: $tablet) {
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+
+  p {
+    margin: 0px 0px 10px 0px !important;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 160%;
+    color: #222124;
+    @media screen and (max-width: $tablet) {
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+
+  .reward-text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    @media screen and (max-width: $tablet) {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+
+  .mobile-scroll {
+   width: 95%;
+
+   @media screen and (max-width: $tablet) {
+      overflow-x: scroll;
+    }
+  }
+
+  .table {
+    width: auto;
+    min-width: 450px;
+    :global {
+      .even-row {
+        background: #f8f9fb;
+      }
+      thead {
+        td, th {
+          background: none;
+          border-bottom: none;
+          &:before {
+            display: none;
+          }
+        }
+      }
+      tbody {
+        tr {
+          &:hover {
+            td {
+              background: unset !important;
+            }
+          }
+          td {
+            border-bottom: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.rewards-section-from-faq {
+  margin-bottom: 30px;
+  .mobile-scroll {
+    width: 100%;
+  }
+}
+
+.anime-rewards-section {
+  h2 {
+    font-family: 'Kozuka-Gothic-Heavy';
+    color: #313fae;
+    background: none;
+    font-size: 20px !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #313fae;
+    margin-bottom: 0 !important;
+    & + p {
+      font-size: 17px;
+      font-family: 'Kozuka-Gothic-Heavy';
+      margin-bottom: 0 !important;
+    }
+  }
+  h3 {
+    font-family: 'Kozuka-Gothic-Heavy';
+    color: #313fae;
+    background: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #313fae;
+    font-size: 20px;
+    margin-bottom: -4px;
+    & + p {
+      font-size: 17px;
+      font-family: 'Kozuka-Gothic-Heavy';
+    }
+  }
+  table {
+    thead {
+      th {
+        padding: 8px !important;
+        h3 {
+          font-size: 16px !important;
+        }
+        p {
+          font-size: 14px !important;
+        }
+      }
+    }
+    tbody {
+      td {
+        padding: 8px !important;
+        &.reward-text {
+          font-family: 'Kozuka-Gothic-Heavy';
+        }
+      }
+    }
+  }
+}

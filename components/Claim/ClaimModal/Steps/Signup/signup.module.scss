@@ -1,0 +1,276 @@
+@import "../../../../../styles/extend.scss";
+@import "../../../../../styles/breakpoints";
+
+@mixin back-to-login-styles {
+  span {
+    @extend .primary-button;
+    font-family: "Manrope", sans-serif;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    color: #8f3be8 !important;
+
+    &:hover {
+      @extend .primary-button-hover;
+      background-clip: text !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent;
+      color: #9d3eeb !important;
+    }
+  }
+}
+
+.back-to-login {
+  display: block;
+  width: max-content;
+  margin: 10px auto;
+  @include back-to-login-styles;
+}
+
+.tip-container {
+  margin-top: 2px;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.22px;
+}
+.address-item {
+  margin-bottom: 0;
+}
+
+.commercial-back-to-login {
+  @include back-to-login-styles;
+}
+
+.signup {
+  max-width: 450px;
+  margin: 20px auto 0 auto;
+  padding: 0px 20px;
+
+  label {
+    font-family: var(--form-labels-font-family) !important;
+    color: var(--form-lable-font-color) !important;
+  }
+
+  .phone-input {
+    input {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 4px 11px;
+      color: rgba(0, 0, 0, 0.88);
+      font-size: 14px;
+      line-height: 1.5714285714285714;
+      list-style: none;
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      min-width: 0;
+      background-color: #ffffff;
+      background-image: none;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #d9d9d9;
+      border-radius: 6px;
+      transition: all 0.2s;
+
+      &::placeholder {
+        color: rgba(0, 0, 0, 0.25);
+      }
+
+      &:hover {
+        border-color: #4096ff;
+      }
+
+      &:focus-visible {
+        border-color: #4096ff;
+        outline: none;
+      }
+
+      &:disabled {
+        color: rgba(0, 0, 0, 0.25);
+        background-color: rgba(33, 25, 25, 0.04);
+        border-color: #d9d9d9;
+        box-shadow: none;
+        cursor: not-allowed;
+        opacity: 1;
+      }
+    }
+
+    :global {
+      .PhoneInputCountry {
+        transform: scale(1.1);
+        margin-right: 10px;
+        margin-left: 5px;
+      }
+    }
+  }
+
+  .commercial-checkbox {
+    margin-bottom: 0px;
+  }
+
+  .submit-btn {
+    width: 100%;
+  }
+  .commercial-submit {
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    margin: auto;
+    border-radius: 58px;
+    height: auto;
+    padding: 7px 50px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+    @extend .primary-button;
+
+    &:hover {
+      @extend .primary-button-hover;
+    }
+  }
+
+  .submit {
+    margin-bottom: 20px;
+  }
+
+  .signup-select {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 4px 11px;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 0;
+    background-color: #ffffff;
+    background-image: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d9d9d9;
+    border-radius: 6px;
+    transition: all 0.2s;
+
+    &::placeholder {
+      color: rgba(0, 0, 0, 0.25);
+    }
+
+    &:hover {
+      border-color: #4096ff;
+    }
+
+    &:focus-visible {
+      border-color: #4096ff;
+      outline: none;
+    }
+
+    &:disabled {
+      color: rgba(0, 0, 0, 0.25);
+      background-color: rgba(33, 25, 25, 0.04);
+      border-color: #d9d9d9;
+      box-shadow: none;
+      cursor: not-allowed;
+      opacity: 1;
+    }
+  }
+
+  .signup_confirmation {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .signup_confirmation -h1 {
+    margin: auto !important;
+  }
+
+  .commercial_signup_confirmation {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Manrope", sans-serif;
+    margin-bottom: 1em;
+
+    h1 {
+      margin-top: 0;
+      font-size: 20px;
+      line-height: 25px;
+      font-weight: normal;
+    }
+  }
+  .submit-btn-continue {
+    border-radius: 58px;
+    height: auto;
+    padding: 7px 50px;
+    width: 48%;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 5px;
+    @extend .primary-button;
+    &:hover {
+      @extend .primary-button-hover;
+    }
+  }
+
+  .commercial-email {
+    margin-bottom: 10px;
+  }
+  .commercial-confirm-password {
+    margin-bottom: 10px;
+  }
+  .commercial-user-fields {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    .commercial-user-name {
+      margin-bottom: 0px;
+      width: 50%;
+    }
+  }
+}
+
+.commercial-signup {
+  margin-top: 0;
+}
+
+.commercial-heading {
+  margin-top: 0;
+}
+
+.pre-register-container {
+  max-width: 350px;
+  padding: 0px 20px;
+  margin: 5px auto;
+
+  label {
+    font-family: var(--form-labels-font-family) !important;
+    color: var(--form-lable-font-color) !important;
+  }
+
+  @media screen and (max-width: $tablet) {
+    margin: 5px auto;
+  }
+
+  .continue-btn {
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 58px;
+    height: 40px;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+
+    @extend .primary-button;
+    &:hover {
+      @extend .primary-button-hover;
+    }
+  }
+}

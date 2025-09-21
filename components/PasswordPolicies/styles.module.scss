@@ -1,0 +1,36 @@
+.password-validation-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+
+  .validation {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    width: 50%;
+
+    .dot {
+      background-color: #d9d9d9;
+      border-radius: 50%;
+      height: 6px;
+      width: 6px;
+    }
+
+    .validation-name {
+      color: rgba(0, 0, 0, 0.4);
+      margin: 0;
+      font-size: 12px;
+      line-height: 1.3;
+    }
+
+    &.validated {
+      .dot {
+        background-color: #14b467;
+      }
+
+      .validation-name {
+        color: #14b467;
+      }
+    }
+  }
+}

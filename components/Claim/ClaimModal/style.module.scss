@@ -1,0 +1,103 @@
+@import "../../../styles/breakpoints";
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.75);
+  z-index: 999;
+  overflow-y: auto;
+
+  @media screen and (max-width: $tablet) {
+    width: 99vw;
+    height: 98vh;
+  }
+}
+
+.forgotPasswordModal {
+  height: max-content;
+  margin: auto;
+  width: 96vw !important;
+  @media screen and (min-width: $mobile) {
+    max-width: 500px !important;
+    //top: 45% !important;
+    top: 50% !important;
+    bottom: auto !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: auto !important;
+    transform: translateY(-50%) !important;
+    // max-height: 685px;
+    height: max-content;
+  }
+}
+.modalContent {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  right: 40px;
+  bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 21px;
+  background: #fff;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 4px;
+  outline: none;
+  padding: 0;
+  overflow-y: auto;
+  // overflow-x: hidden;
+
+  @media screen and (max-width: $mobile) {
+    width: 98vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  @media screen and (max-width: $tablet) {
+    width: 98vw;
+    padding: 0;
+  }
+}
+
+.steps {
+  max-width: 450px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.closeButton {
+  outline: none;
+  // background: transparent;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 18px !important;
+  height: 18px !important;
+  background-color: transparent;
+  color: #4d35a2;
+  box-shadow: none;
+}
+
+.commercialCloseButton {
+  margin-top: 10px;
+}
+
+.anime-steps {
+  :global {
+    .ant-steps-item-icon {
+      background: #313fae !important;
+    }
+    .ant-steps-item-title {
+      color: #313fae !important;
+    }
+  }
+}

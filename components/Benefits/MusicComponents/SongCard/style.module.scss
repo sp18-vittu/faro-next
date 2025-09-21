@@ -1,0 +1,125 @@
+.container {
+  background: #fff;
+  box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 18px 66px 50px auto;
+  margin: auto;
+  align-items: center;
+
+  .songNumber {
+    margin: 10px 10px;
+    text-align: center;
+  }
+
+  .songAvatar {
+    margin: 10px 10px;
+  }
+
+  .songIcon {
+    margin: 10px 10px;
+  }
+
+  .songTitle {
+    margin: 10px 10px;
+  }
+
+  .songArtist {
+    margin-left: 24px;
+    margin-right: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 39px;
+    color: #b5b3b9;
+  }
+
+  .songDuration {
+    margin-left: 24px;
+    margin-right: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 39px;
+    color: #b5b3b9;
+  }
+
+  .songButtonContainer {
+    margin: 10px 10px;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin: auto;
+    cursor: pointer;
+
+    .image {
+      height: 40px;
+      width: 40px;
+    }
+  }
+
+  .playIcon {
+    height: 40px;
+    width: 40px;
+    position: relative;
+  }
+
+  .h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #222124;
+    opacity: 0.88;
+
+    @media screen and (max-width: 768px) {
+      margin: 0;
+      line-height: 22px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .songIcon {
+      display: none;
+    }
+
+    .songArtist {
+      display: none;
+    }
+
+    .songDuration {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    min-width: 100%;
+    width: 100%;
+  }
+}
+
+.commercialPlayButton {
+
+  position: relative;
+  top: 5px;
+  left: 5px;
+  svg {
+    height: 30px;
+    width: 30px;
+    color: var(--commercial-template-blue);
+  }
+
+  &::after {
+    content: "";
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    position: absolute;
+    background: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 0 4px rgba(69, 49, 157, 0.3);
+  }
+}

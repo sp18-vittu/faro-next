@@ -1,0 +1,40 @@
+.commercial-button {
+  color: #fff !important;
+  background: var(--commercial-template-blue) !important;
+}
+
+.commerical-button-hover {
+  color: #fff !important;
+  background: var(--commercial-template-blue) !important;
+}
+
+.cancel-button {
+  background: #f0f0f0;
+  border: solid 1px gainsboro;
+  color: var(--color-brand-text) !important;
+  box-shadow: none !important;
+}
+
+.cancel-button-hover {
+  background: gainsboro;
+  border-color: #b56bff;
+  border: solid 1px #d4d4d4;
+}
+
+//Adding Theme
+
+.primary-button {
+  color: #fff !important;
+  background: var(--button-primary-color) !important;
+}
+
+.primary-button-hover {
+  color: #fff !important;
+  background: var(--button-primary-color) !important;
+}
+
+.benefit-modal-title {
+}
+
+.benefit-modal-button {
+}

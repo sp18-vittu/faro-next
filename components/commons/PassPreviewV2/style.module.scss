@@ -1,0 +1,26 @@
+.pass-wrapper {
+  max-width: 450px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1.04651px solid rgba(0, 0, 0, 0.09);
+  box-shadow: 8.9125px 8.16979px 31.9364px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  .loading {
+    text-align: center;
+    padding: 60px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .pass-area {
+    border: solid 1px #C9C9C9;
+    border-radius: 13px;
+    border-top: transparent;
+    height: 80vh;
+    width: 100%;
+    }
+   
+}
+

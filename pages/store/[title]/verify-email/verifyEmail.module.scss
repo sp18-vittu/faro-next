@@ -1,0 +1,16 @@
+.spin-wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result{
+    width: max-content;
+    box-shadow: 0 2px 12px 0 rgb(0 0 0/15%);
+    max-width: 450px;
+    width: 90%;
+    margin: 50px auto 0px auto;
+    border-radius: 5px;
+}

@@ -1,0 +1,33 @@
+@import "../../../../../styles/extend.scss";
+
+.invite-user {
+  max-width: 350px;
+  margin: 0 auto 20px;
+  h1 {
+    text-align: center;
+    font-family: "Manrope", sans-serif;
+    margin-top: 0;
+  }
+  .referral-divider {
+    span {
+      font-family: "Manrope", sans-serif;
+    }
+  }
+  button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    margin: auto;
+    background: linear-gradient(92.66deg, #45319d 1.34%, #c372ef 107.89%);
+    border-radius: 58px;
+    height: auto;
+    padding: 7px 50px;
+    width: 100%;
+    font-family: "Manrope", sans-serif;
+
+    @extend .primary-button;
+    &:hover {
+      @extend .primary-button-hover;
+    }
+  }
+}

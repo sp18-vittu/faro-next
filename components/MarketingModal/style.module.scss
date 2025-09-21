@@ -1,0 +1,64 @@
+@import "../../styles/breakpoints";
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.75);
+
+}
+
+.modalContent {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    right: 40px;
+    bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 21px;
+    background: #fff;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 4px;
+    outline: none;
+    padding: 0;
+    overflow-y: auto;
+    // overflow-x: hidden;
+    @media screen and (max-width: $mobile) {
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    @media screen and (max-width: $tablet) {
+        padding: 0;
+    }
+
+}
+
+.steps {
+    max-width: 450px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.closeButton {
+    outline: none;
+    // background: transparent;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-top: 24px;
+    margin-right: 36px;
+    width: 16px !important;
+    height: 16px !important;
+    background-color: transparent;
+    color: #4D35A2;
+    box-shadow: none;
+}

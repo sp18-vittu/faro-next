@@ -1,0 +1,7 @@
+.icon {
+  &.hover {
+    &:hover {
+      color: var(--color-brand-primary) !important;
+    }
+  }
+}

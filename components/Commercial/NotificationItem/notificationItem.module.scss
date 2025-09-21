@@ -1,0 +1,124 @@
+@import "../../../styles/breakpoints";
+
+.notification-item-container {
+  p {
+    font-family: var(--news-notification-font-family);
+  }
+  display: flex;
+  gap: 12px;
+
+  :global(.ant-collapse) {
+    padding: 0;
+    margin: 0;
+    background: inherit;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+
+    :global(.ant-collapse-item) {
+      border-bottom: none;
+      padding: 12px 16px;
+      border-radius: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      box-shadow: 0px 1px 0px 0px #e4e8ee;
+
+      &:global(.ant-collapse-item-active) {
+        background-color: var(--news-notification-active-tab-background-color);
+      }
+
+      :global(.ant-collapse-header) {
+        padding: 0;
+      }
+      :global(.ant-collapse-header-text) {
+        display: flex;
+        gap: 12px;
+      }
+      :global(.ant-collapse-content) {
+        border: none;
+        :global(.ant-collapse-content-box) {
+          padding: 0;
+        }
+        &:global(.ant-collapse-content-active) {
+          background-color: transparent;
+        }
+      }
+    }
+    :global(.ant-collapse-header .ant-collapse-expand-icon) {
+      display: none;
+    }
+  }
+
+  :global(.ant-collapse-expand-icon) {
+    display: none;
+  }
+
+  .profile-pic {
+    border-radius: 50%;
+    &.contain{
+      object-fit: contain;
+    }
+
+    &.cover{
+      object-fit: cover;
+    }
+
+    @media screen and (max-width: $tablet) {
+      width: 60px !important;
+      height: 60px !important;
+    }
+  }
+  p {
+    margin: 0;
+  }
+  .items-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    .title-container {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      .title {
+        color: var(--news-notification-title-font-color);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 123.6%;
+        @media screen and (min-width: $mobile) {
+          font-size: 16px;
+        }
+      }
+      .time-stamp {
+        color: var(--news-notification-time-stamp-font-color);
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        @media screen and (min-width: $mobile) {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+
+  .message {
+    color: var(--news-notification-time-stamp-font-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 2px 8px;
+    border-radius: 2px;
+    border-left: 2px solid #dddee1;
+    margin-left: 86px;
+    @media screen and (max-width: $tablet) {
+      margin-left: 71px;
+    }
+    @media screen and (min-width: $mobile) {
+      font-size: 16px;
+    }
+  }
+}

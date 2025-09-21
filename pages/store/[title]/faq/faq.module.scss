@@ -1,0 +1,65 @@
+.panel-item {
+  background: #fff !important;
+  box-shadow: 0 1px 2px 2px rgba(0,0,0,0.07);
+}
+
+.heading {
+  font-family: "Integral CF";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  background: linear-gradient(92.66deg, #45319d 0.34%, #c372ef 26.89%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-top: 40px;
+}
+.anime-heading{
+  font-family: "Kozuka-Gothic-Heavy";
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 30px;
+  letter-spacing: -1px;
+  color: #00468C;
+  flex: 1 1;
+  margin-bottom: 0px;
+}
+
+.anime-panel-item {
+  background: #9CCE5A !important;
+  box-shadow: none !important;
+  :global {
+    .ant-collapse-header {
+      color: #fff !important;
+      font-family: "Kozuka-Gothic-Heavy";
+      font-weight: 600;
+      font-size: 16px;
+    }
+    .ant-collapse-content-box {
+      color: #fff !important;
+      font-family: "Kozuka-Gothic-Heavy";
+      font-weight: 600;
+    }
+  }
+}
+
+
+.tabs {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  :global {
+    .ant-tabs-tab-btn {
+      font-size: 16px;
+    }
+  }
+}
+
+.description {
+  margin: 0;
+  font-family: "Inter, sans-serif, Kozuka-Gothic";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #1f1f1f;
+}

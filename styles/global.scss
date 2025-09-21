@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import "./breakpoints";
+@import "./variables";
+
+:root {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "Kozuka-Gothic-Heavy";
+  src: url("./fonts/KozGoPr6N-Heavy-AlphaNum.eot");
+  src: url("./fonts/KozGoPr6N-Heavy-AlphaNum.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/KozGoPr6N-Heavy-AlphaNum.woff2") format("woff2"),
+    url("./fonts/KozGoPr6N-Heavy-AlphaNum.woff") format("woff"),
+    url("./fonts/KozGoPr6N-Heavy-AlphaNum.ttf") format("truetype"),
+    url("./fonts/KozGoPr6N-Heavy-AlphaNum.svg#KozGoPr6N-Heavy-AlphaNum")
+      format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Kozuka-Gothic-Bold";
+  src: url("./fonts/KozGoPr6N-Bold-AlphaNum.eot");
+  src: url("./fonts/KozGoPr6N-Bold-AlphaNum.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/KozGoPr6N-Bold-AlphaNum.woff2") format("woff2"),
+    url("./fonts/KozGoPr6N-Bold-AlphaNum.woff") format("woff"),
+    url("./fonts/KozGoPr6N-Bold-AlphaNum.ttf") format("truetype"),
+    url("./fonts/KozGoPr6N-Bold-AlphaNum.svg#KozGoPr6N-Bold-AlphaNum")
+      format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Integral CF";
+  src: url("./fonts/integral/IntegralCF-Bold.eot");
+  src: url("./fonts/integral/IntegralCF-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/integral/IntegralCF-Bold.woff2") format("woff2"),
+    url("./fonts/integral/IntegralCF-Bold.woff") format("woff"),
+    url("./fonts/integral/IntegralCF-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Integral CF Demi";
+  src: url("./fonts/integral/IntegralCF-DemiBold.eot");
+  src: url("./fonts/integral/IntegralCF-DemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/integral/IntegralCF-DemiBold.woff2") format("woff2"),
+    url("./fonts/integral/IntegralCF-DemiBold.woff") format("woff"),
+    url("./fonts/integral/IntegralCF-DemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+.ant-steps-item-title {
+  // font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  letter-spacing: -0.02em !important;
+
+  color: #9b43fd !important;
+
+  @media screen and (max-width: 768px) {
+    font-size: 12px !important;
+  }
+}
+
+.ant-steps-item-icon {
+  background: #9b43fd !important;
+  border-color: #9b43fd33 !important;
+  border: 2px;
+  height: 82px;
+  width: 82px;
+
+  @media screen and (max-width: 768px) {
+    height: 35px;
+    width: 35px;
+  }
+}
+
+.ant-steps-icon {
+  color: #ffffff !important;
+}
+
+.ant-steps-item-tail::after {
+  border: 1.16667px dashed #c5c5c5;
+}
+
+.ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-tail::after {
+  background-color: transparent !important;
+}
+
+.container {
+  max-width: 1500px !important;
+  --gutter-x: 30px;
+  --gutter-y: 0;
+  padding-right: calc(var(--gutter-x) * 0.5);
+  padding-left: calc(var(--gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+  min-height: auto !important;
+  @media screen and (max-width: $desktop-extra-large) {
+    max-width: 1300px !important;
+  }
+  @media screen and (max-width: $desktop-large) {
+    max-width: 1100px !important;
+  }
+  @media screen and (max-width: $desktop) {
+    max-width: 900px !important;
+  }
+}
+
+.container-fluid {
+  --gutter-x: 30px;
+  --gutter-y: 0;
+  padding-right: calc(var(--gutter-x) * 0.5);
+  padding-left: calc(var(--gutter-x) * 0.5);
+}
+
+.button {
+  background: linear-gradient(92.66deg, #45319d 1.34%, #c372ef 107.89%);
+  border-radius: 50px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  transition: all 1s ease-out;
+  &:hover {
+    color: #fff !important;
+    background: linear-gradient(92.66deg, #45319d 100%, #45319d 107.89%);
+  }
+  &:disabled {
+    background: gray !important;
+    color: #fff !important;
+  }
+}

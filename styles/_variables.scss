@@ -1,0 +1,92 @@
+:root {
+  --commercial-template-blue: #3200c3; //commercial
+  --button-primary-color: #313fae; //anime
+
+  /*Logins buttons  */
+  --Login-buttons-primary-color: #000; //anime
+  --Login-buttons-font-family: Kozuka-Gothic-Heavy; //anime
+  --Login-buttons-font-size: 12px; //anime
+  --Login-buttons-font-size-small: 12px; //commercial
+
+  /*Benefit Modal */
+
+  --benefit-modal-button-primary-color: #45319d; //anime
+  --benefit-modal-button-primary-color-disabled: #4555cdb6; //anime
+  --benefit-modal-button-secondary-color: #c372ef; //anime
+  --benefit-modal-button-text-color: #fff; //anime
+  --benefit-modal-coupon-background: #313fae; //anime
+  --benefit-modal-coupon-font-family: Kozuka-Gothic-Heavy;
+  --benefit-modal-coupon-discount-font-size: 16px;
+  --benefit-modal-coupon-expiry-font-size: 13px;
+  --benefit-modal-disclaimer-title-font-size: 14px;
+  --benefit-modal-disclaimer-content-font-size: 14px;
+  --benefit-modal-merchant-container-border-color: #313fae;
+  --benefit-modal-merchant-container-background-color: #fff;
+  --benefit-modal-merchant-container-font-family: Kozuka-Gothic-Heavy;
+  --benefit-modal-merchant-container-button-color: #313fae;
+
+  --benefit-modal-title-color: #313fae; //anime
+  --benefit-modal-title-font-family: Kozuka-Gothic-Heavy; //anime
+  --benefit-modal-title-font-size: 30px; //anime
+  --benefit-modal-description-font-family: Kozuka-Gothic-Heavy; //anime
+  --benefit-modal-description-font-size: 14px; //anime
+  --benefit-modal-description-text-color: #565656; //anime
+  --benefit-modal-disclaimer-background-color: #f4f4f4; //anime
+
+  /* Footer */
+  --footer-background-color: #000;
+  --footer-header-font-family: Kozuka-Gothic-Heavy;
+  --footer-header-font-size: 26px;
+  --footer-header-font-color: #fff;
+  --footer-description-font-family: Kozuka-Gothic-Heavy;
+  --footer-description-font-size: 16px;
+  --footer-description-font-color: #fff;
+  --footer-copyright-font-family: Inter, sans-serif;
+  --footer-copyright-font-size: 16px;
+  --footer-copyright-font-color: #fff;
+
+  /* Categories in Commercial */
+
+  --category-heading-font-family: Integral CF; //Commercial
+  --category-heading-font-size: 24px; //Commercial
+  --category-heading-font-color: #222124; //Commercial
+  --category-see-all-font-family: Manrope, sans-serif;
+  --category-see-all-font-size: 20px;
+  --category-see-all-font-color: #3200c3;
+
+  /* Benefit Card */
+
+  --benefit-card-title-font-family: Manrope, sans-serif;
+  --benefit-card-title-font-size: 16px;
+  --benefit-card-title-font-color: #222124;
+  // --benefit-card-short-description-font-color: #ff4d4d;
+  --benefit-card-short-description-font-color: #fff;
+
+
+  --benefit-card-description-font-family: Manrope, sans-serif;
+  --benefit-card-description-font-size: 14px;
+  --benefit-card-description-font-color: #636363;
+
+  /* User Details for commerical */
+  --user-details-font-family: Manrope, sans-serif;
+  --user-details-font-size: 14px;
+
+  /* Benefits Heading for Anime   */
+
+  --benefits-heading-font-family: Kozuka-Gothic-Heavy;
+  --benefits-heading-font-size: 22px;
+  --benefits-heading-font-color: #fff;
+
+  /*Forms in commercial template */
+
+  --form-labels-font-family: Inter, sans-serif;
+  --form-lable-font-color: #000000;
+
+  /*News Notification in commercial */
+
+  --news-notification-font-family: Manrope, sans-serif;
+  --news-notification-title-font-color: #222124;
+  --news-notification-time-stamp-font-color: #636363;
+  --news-notification-message-font-color: #1a1f36;
+  --news-notification-active-tab-background-color: rgba(128, 43, 225, 0.05);
+}

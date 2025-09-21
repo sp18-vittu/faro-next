@@ -1,0 +1,642 @@
+@import "../../../styles/breakpoints";
+
+.card {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 20px;
+  border: none;
+  padding-bottom: 0px;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.09) !important;
+  box-shadow: 8.95px 8.21px 32.08px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 500ms ease !important;
+  position: relative;
+  &:hover {
+    box-shadow: 11.95px 13.21px 36.08px rgba(0, 0, 0, 0.09);
+  }
+
+  @media screen and (max-width: $tablet) {
+    :global {
+      .ant-card-body {
+        padding: 14px;
+      }
+    }
+  }
+
+  .imageContainer {
+    width: 100%;
+    height: 228px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    img {
+      object-fit: cover;
+    }
+  }
+
+  .image {
+    border-radius: 20px;
+  }
+
+  .logoContainer {
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    position: absolute;
+    right: 270px;
+    left: 42px;
+    bottom: 117px;
+    top: 217px;
+    object-fit: contain;
+    border-radius: 50%;
+  }
+
+  .card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .title {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #222124;
+    margin-left: 8px;
+    flex: 1;
+  }
+
+  .content {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #222124;
+    margin-left: 8px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .benefitType {
+    display: flex;
+    max-width: 134px;
+    align-items: center;
+    padding: 5px 10px;
+    background: linear-gradient(92.66deg, #45319d 1.34%, #c372ef 107.89%);
+    border-radius: 39px;
+    z-index: 1;
+    width: fit-content;
+    margin-right: 8px;
+    height: 13px;
+  }
+
+  .benefitSpan {
+    min-width: 36px;
+    // height: 18px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  .logo {
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  &:not(.jap-card-wrapper) {
+    &.image-only-wrapper {
+      background: none !important;
+      border: none !important;
+      box-shadow: none !important;
+      height: auto !important;
+      :global {
+        .ant-card-body {
+          padding: 0;
+        }
+      }
+      .imageContainer {
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+}
+
+.smallCard {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 20px;
+  border: none;
+  padding-bottom: 0px;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+
+  &.jap-card-wrapper {
+    .imageContainer {
+      @media screen and (max-width: $mobile) {
+        height: 200px !important;
+      }
+    }
+    .content {
+      margin-left: 8px;
+    }
+    .card-title {
+      margin-bottom: 15px;
+    }
+    .store-name {
+      margin-bottom: 10px;
+      p {
+        font-size: 13px;
+        line-height: 21px;
+      }
+    }
+  }
+
+  :global {
+    .ant-card-body {
+      padding: 0;
+    }
+  }
+
+  &:hover {
+    // box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.06);
+    box-shadow: none;
+    .content {
+      color: #9b43fd;
+    }
+  }
+
+  .imageContainer {
+    width: 100%;
+    height: 152px;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    @media screen and (max-width: 561px) {
+      height: 133px;
+    }
+    .benefitType {
+      padding: 8px 10px;
+      margin-right: 8px;
+      span {
+        font-size: 12px;
+      }
+      .icon {
+        width: 10px;
+        height: 10px;
+      }
+    }
+    .points {
+      width: 76px;
+      height: 44px;
+    }
+  }
+
+  .image {
+    border-radius: 20px;
+    object-fit: cover;
+    @media screen and (max-width: 561px) {
+      border-radius: 10px;
+    }
+  }
+
+  .logoContainer {
+    width: 25px;
+    height: 25px;
+    z-index: 1;
+    position: absolute;
+    left: 30px;
+    // right: 142px;
+    top: 106px;
+    bottom: 57px;
+  }
+
+  .logo {
+    width: 100%;
+    height: 100%;
+  }
+
+  .title {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 21px;
+    margin-top: 10px;
+    color: #616161;
+  }
+
+  .content {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #222124;
+    transition: all 0.3s ease;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+    p {
+      font-family: "Inter", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 21px;
+    }
+  }
+
+  .benefitType {
+    display: flex;
+    max-width: 134px;
+    flex-direction: row;
+    align-items: center;
+    padding: 2.5px 5px;
+    background: linear-gradient(92.66deg, #45319d 1.34%, #c372ef 107.89%);
+    border-radius: 39px;
+    z-index: 1;
+    margin-right: 10px;
+    width: fit-content;
+    justify-content: space-around;
+  }
+
+  .benefitSpan {
+    // min-width: 34px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5.8794px;
+    line-height: 9px;
+    color: #ffffff;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  .icon {
+    display: inline-block;
+    margin-left: 5px;
+    width: 5px;
+    height: 5px;
+  }
+}
+
+.benefit-chips {
+  z-index: 1;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 6px;
+  @media screen and (max-width: $mobile) {
+    margin-bottom: 1px;
+    transform: scale(0.7);
+    margin-right: -12px;
+  }
+}
+
+.points {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 83px;
+  height: 44px;
+  background: linear-gradient(92.66deg, #45319d 1.34%, #c372ef 107.89%);
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 20px 0px 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 14px;
+  span {
+    display: block;
+    font-size: 8px;
+    margin-bottom: -5px;
+  }
+
+  .lock {
+    position: absolute;
+    left: 5px;
+    font-size: 18px;
+  }
+  @media screen and (max-width: $mobile) {
+    border-radius: 10px 0px 20px 0px;
+  }
+}
+
+.redeem {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 120px;
+  height: 44px;
+  background: linear-gradient(92.66deg, #45319d 1.34%, #c372ef 107.89%);
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 20px 0px 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 14px;
+  span {
+    display: block;
+    font-size: 8px;
+    margin-bottom: -5px;
+  }
+  .buy {
+    position: absolute;
+    left: 5px;
+    font-size: 18px;
+  }
+  .buy-sm {
+    position: absolute;
+    left: 5px;
+    font-size: 14px;
+  }
+}
+
+.redeemsmall {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 120px;
+  height: 44px;
+  background: linear-gradient(92.66deg, #45319d 1.34%, #c372ef 107.89%);
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 14px;
+  span {
+    display: block;
+    font-size: 8px;
+    margin-bottom: -5px;
+  }
+  .buy {
+    position: absolute;
+    left: 5px;
+    font-size: 14px;
+  }
+  @media screen and (max-width: $mobile) {
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    font-size: 16px;
+    transform: scale(0.6);
+    padding: 7px 7px;
+    justify-content: space-between;
+    left: -17px;
+    span {
+      position: relative !important;
+      margin-right: 9px;
+    }
+  }
+}
+
+/* ---------------- Japanese template start here --------------------*/
+.jap-card-wrapper {
+  padding: 24px;
+  border-radius: 20px;
+  box-shadow: 2px 5px 5px 3px rgba(0, 0, 0, 0.1) !important;
+  &:not(.image-only-wrapper) {
+    .imageContainer {
+      .image {
+        width: 100% !important;
+      }
+    }
+  }
+  &.image-only-wrapper {
+    padding: 0px !important;
+    background: none !important;
+    box-shadow: none !important;
+    height: auto !important;
+    .imageContainer {
+      margin-bottom: 0;
+      @media screen and (max-width: $desktop) {
+        height: 200px !important;
+        img {
+          height: 100% !important;
+          border: solid white 1px !important;
+        }
+      }
+      // @media screen and (max-width: $mobile) {
+      //   img {
+      //     height: auto !important;
+      //   }
+      // }
+    }
+    img {
+      object-position: top;
+    }
+  }
+  & > div {
+    padding: 0 !important;
+  }
+  .imageContainer {
+    height: 200px !important;
+    @media screen and (max-width: $mobile) {
+      height: 110px !important;
+    }
+  }
+  .image {
+    border-radius: 10px !important;
+    margin: auto;
+  }
+  .title {
+    font-family: var(--benefit-card-title-font-family);
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 16px;
+    letter-spacing: -1px;
+    color: var(--benefit-card-title-font-color);
+    flex: 1;
+    margin-bottom: 10px;
+  }
+  .stages-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    .stage-container {
+      width: 51px;
+      height: 51px;
+      position: relative;
+      span {
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 600;
+      }
+    }
+    .stage {
+      width: 51px;
+      height: 51px;
+      position: relative;
+    }
+    .stage-detail {
+      p {
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+      }
+    }
+  }
+  .content {
+    font-family: var(--benefit-card-description-font-family);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--benefit-card-description-font-color);
+    transition: all 0.3s ease;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    p {
+      font-family: var(--benefit-card-description-font-family);
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 21px;
+      margin: 0 !important;
+    }
+  }
+}
+.store-name {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 10px;
+  &:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: solid 6px transparent;
+    border-right: solid 6px transparent;
+    border-bottom: solid 6px transparent;
+    border-left: solid 10px black;
+    position: absolute;
+    top: 1px;
+    left: 0;
+  }
+  p {
+    margin-top: -4px !important;
+    margin-left: 5px !important;
+  }
+}
+
+.anime-type {
+  background: var(--button-primary-color) !important;
+}
+
+.anime-content {
+  margin-top: 10px;
+  margin-bottom: 0 !important;
+  overflow: hidden;
+}
+.anime-points {
+  background: #313fae !important;
+  border-radius: 11px 0px 20px 0px;
+}
+.anime-image {
+  object-fit: contain !important;
+}
+.anime-slider-wrapper {
+  padding: 14px;
+  // background: none;
+  // box-shadow: none !important;
+  // img {
+  //   object-position: top;
+  // }
+  &.image-only-wrapper {
+    width: 100%;
+    height: 220px !important;
+    position: relative;
+    padding: 0px;
+    background: none;
+    box-shadow: none !important;
+    // height: 100% !important;
+    // :global {
+    //   .ant-card-body {
+    //     height: 100% !important;
+    //   }
+    // }
+    // .imageContainer {
+    //   height: 100% !important;
+    // }
+    img {
+      max-width: 100%;
+      height: 100% !important;
+      // border-radius: 10px;
+      cursor: pointer;
+      object-fit: fill !important;
+    }
+  }
+}
+.image-only-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  img {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    object-fit: cover;
+    border: solid 1px white;
+    // object-position: center;
+  }
+  // // &:not(.anime-image-only-wrapper) {
+  // img {
+  //   position: relative !important;
+  //   border: solid 1px white;
+  // }
+  @media screen and (max-width: $mobile-smallPlusOne) {
+    margin-left: -15px;
+    width: calc(100% + 30px);
+    img {
+      border: none;
+      border-radius: 0px;
+    }
+  }
+  // }
+}
+/* ---------------- Japanese template end here --------------------*/

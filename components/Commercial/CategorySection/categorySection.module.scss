@@ -1,0 +1,30 @@
+@import "../../../styles/breakpoints";
+
+.category-section {
+  padding-bottom: 10px;
+  .heading-cont {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+
+    .heading {
+      font-family: var(--category-heading-font-family);
+      font-weight: 400;
+      font-size: var(--category-heading-font-size);
+      line-height: 1;
+      margin: 0;
+      color: var(--category-heading-font-color);
+    }
+  }
+  @media screen and (max-width: $mobile) {
+    .heading-cont {
+      padding: 2px 0px 0px 0px;
+      .heading {
+        font-size: 16px;
+        line-height: 1;
+        padding-top: 3px;
+      }
+    }
+  }
+}

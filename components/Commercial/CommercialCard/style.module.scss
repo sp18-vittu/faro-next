@@ -1,0 +1,98 @@
+@import "../../../styles/breakpoints";
+
+@mixin meta-title {
+  color: var(--benefit-card-title-font-color);
+  font-family: var(--benefit-card-title-font-family);
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  word-break: break-all;
+}
+
+@mixin meta-description {
+  color: var(--benefit-card-description-font-color);
+  font-family: var(--benefit-card-description-font-family);
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 1.2em;
+  line-height: 1.2em;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  word-break: break-all;
+}
+
+.card {
+  height: 100%;
+
+  :global {
+    .ant-card-body {
+      padding: 0px;
+    }
+
+    .ant-card-meta {
+      .ant-card-meta-detail {
+        .ant-card-meta-title {
+          @include meta-title;
+          font-size: var(--benefit-card-title-font-size);
+          margin-top: 5px;
+          margin-bottom: 0px;
+          font-weight: 700;
+
+          @media screen and (max-width: 576px) {
+            font-size: 12px;
+            margin-bottom: 2px;
+          }
+          span {
+            color: var(--benefit-card-short-description-font-color);
+            font-family: "Manrope", sans-serif;
+            margin-right: 5px;
+            @media screen and (max-width: 576px) {
+              font-size: 12px;
+              margin-bottom: 2px;
+            }
+          }
+        }
+
+        .ant-card-meta-description {
+          @include meta-description;
+          font-size: var(--benefit-card-description-font-size);
+          line-height: 20px;
+          font-weight: 600;
+          margin-bottom: 5px;
+          // min-height: 40px;
+          min-height: 0px;
+
+          @media screen and (max-width: $mobile) {
+            font-size: 11px;
+            font-weight: 500;
+            -webkit-line-clamp: 1;
+            line-height: 14px;
+            min-height: 14px !important;
+          }
+        }
+      }
+    }
+  }
+
+  &.type-5 {
+    // padding: 11px;
+    border-radius: 7px;
+
+    @media screen and (max-width: $mobile-smallPlusOne) {
+      padding: 7px;
+    }
+
+    :global {
+      .ant-card-cover {
+        img {
+          border-radius: 7px;
+        }
+      }
+    }
+  }
+}

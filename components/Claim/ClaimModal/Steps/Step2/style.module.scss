@@ -1,0 +1,100 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    border: 1.05123px solid rgba(0, 0, 0, 0.09);
+    box-shadow: 8.95273px 8.20667px 32.0806px rgba(0, 0, 0, 0.05);
+    /* Note: backdrop-filter has minimal browser support */
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 32.8267px;
+    width: fit-content;
+
+    .token {
+        width: 589px;
+        height: 648px;
+    }
+
+    .h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27.4074px;
+        line-height: 33px;
+        text-align: center;
+        color: #222124;
+        margin: 0;
+        margin-top: 5px;
+
+        .b {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36.77px;
+            line-height: 33px;
+            text-align: center;
+            color: #222124;
+        }
+    }
+
+    .h2 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13.7037px;
+        line-height: 160%;
+        color: #565656;
+        opacity: 0.85;
+        margin: 0;
+        margin-top: 20px;
+        width: 25px;
+    }
+
+    .button {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 160%;
+        color: #FFFFFF;
+        opacity: 0.85;
+        width: 410px;
+        height: 56px;
+        margin: auto;
+        margin-top: 20px;
+        /* GRADIENT */
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-top: 15.5px;
+        padding-bottom: 15.5px;
+        background: linear-gradient(92.66deg, #45319D 1.34%, #C372EF 107.89%);
+        border-radius: 58px;
+
+    }
+
+    @media screen and (max-width: 1024px) {
+        .button {
+            height: 35px;
+            width: 274.489990234375px;
+            font-size: 12px;
+            line-height: 150%;
+            padding-top: 8.5px;
+            padding-bottom: 8.5px;
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+
+        .token {
+            height: 301.9389953613281px;
+            width: 274.489990234375px;
+        }
+
+        .h1 {
+            font-size: 11.11px;
+
+            .b {
+                font-size: 22.96px;
+            }
+        }
+    }
+}

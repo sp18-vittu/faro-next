@@ -1,0 +1,173 @@
+@import "../../../styles/breakpoints";
+
+.rowContainer {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background: linear-gradient(92.66deg, #45319d 1.34%, #c372ef 107.89%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+.containerFooterBold {
+  font-family: var(--footer-header-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: var(--footer-header-font-size);
+  color: var(--footer-header-font-color);
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+.containerFooterRegular {
+  font-family: var(--footer-description-font-family);
+  font-size: var(--footer-description-font-size);
+  font-style: normal;
+  font-weight: 400;
+  color: var(--footer-description-font-color);
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
+}
+
+.spanFooterBold {
+  width: 100%;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerLogoContainer {
+  display: "flex";
+  justify-content: "center";
+  // margin: autos;
+  a {
+    &:last-child {
+      img {
+        border-right: none;
+      }
+    }
+  }
+}
+
+.footerLogo {
+  // display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  // margin-right:10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.copyright {
+  font-family: var(--footer-copyright-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--footer-copyright-font-size);
+  line-height: 39px;
+  /* identical to box height, or 244% */
+  color: var(--footer-copyright-font-color);
+  opacity: 0.85;
+  text-align: center;
+  span {
+    font-size: 14px;
+    display: block;
+    a {
+      color: #fff;
+      text-decoration: none;
+      &:hover {
+        border-bottom: solid 1px #fff;
+      }
+    }
+  }
+}
+
+.jap-footer {
+  background: var(--footer-background-color);
+  position: relative;
+  .bear {
+    position: absolute;
+    left: 150px;
+    top: -51px;
+    @media screen and (max-width: $tablet) {
+      left: 40px;
+    }
+  }
+}
+
+.commercial-footer {
+  border-radius: 4px;
+  background: var(--footer-background-color);
+  padding: 3% 0%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+
+  @media screen and (max-width: $tablet) {
+    margin-top: 40px;
+  }
+  .commercial-footer-logo {
+    color: var(--footer-header-font-color);
+    font-family: var(--footer-header-font-family);
+    font-size: var(--footer-header-font-size);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+
+    @media screen and (max-width: $mobile) {
+      margin-top: 30px;
+      font-size: 24px;
+    }
+  }
+  .commercial-footer-desc {
+    color: var(--footer-description-font-color);
+    text-align: center;
+    //font-family: "Manrope", sans-serif;
+    font-family: var(--footer-description-font-family);
+    font-size: var(--footer-description-font-size);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.5px;
+    opacity: 0.85;
+    margin: 0;
+    width: 60%;
+
+    @media screen and (max-width: $mobile) {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: normal;
+      width: 90%;
+    }
+  }
+
+  .commercial-brand-name {
+    font-family: var(--footer-copyright-font-family);
+    font-size: var(--footer-copyright-font-size);
+    color: var(--footer-copyright-font-color);
+    opacity: 0.6;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+    margin: 0;
+
+    .faro-link {
+      color: #3e72f8;
+    }
+  }
+  .footer-icons-container {
+    display: flex;
+    gap: 34px;
+  }
+}

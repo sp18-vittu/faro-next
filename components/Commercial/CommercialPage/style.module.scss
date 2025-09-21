@@ -1,0 +1,159 @@
+@import "../../../styles/breakpoints";
+
+.see-all {
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: -0.8px;
+
+  cursor: pointer;
+
+  @media screen and (max-width: $mobile) {
+    font-size: 14px;
+    letter-spacing: -0.56px;
+  }
+}
+
+.title-container {
+  background: #f0f0f0;
+  color: #222124;
+  font-family: "Integral CF", sans-serif;
+  font-size: 32px;
+  padding: 20px 0px 30px 0px;
+
+  .title {
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  @media screen and (max-width: $mobile-smallPlusOne) {
+    font-size: 24px;
+  }
+}
+
+.tab-container {
+  :global {
+    .ant-tabs-nav {
+      display: none;
+      .ant-tabs-nav-operations {
+        display: none;
+      }
+
+      margin-bottom: 0;
+
+      // @extend .container;
+      .ant-tabs-nav-wrap {
+        .ant-tabs-nav-list {
+          .ant-tabs-tab {
+            padding: 0px 60px;
+            margin: 9px 0px;
+            border-right: 1px solid #d1d1d1;
+            @media screen and (max-width: $mobile) {
+              margin: 5px 0px;
+            }
+
+            &[data-node-key="Profile"] {
+              border-right: 0px;
+            }
+
+            .ant-tabs-tab-btn {
+              margin: 0 auto;
+            }
+
+            &:first-of-type {
+              padding-left: 5px;
+
+              .ant-tabs-tab-btn {
+                margin: 0;
+              }
+            }
+
+            :local .tab-label {
+              display: flex;
+              color: #222124;
+              font-size: 18px;
+              font-weight: 600;
+
+              p {
+                margin: 0;
+              }
+            }
+
+            &.ant-tabs-tab-active {
+              :local .tab-label {
+                // background: linear-gradient(to right, #BB52F5 0%, #802BE1 100%);
+                // background-clip: text;
+                // -webkit-background-clip: text;
+                // -webkit-text-fill-color: transparent;
+                // color: transparent;
+                color: var(--commercial-template-blue);
+
+                svg {
+                  // fill: #BB52F5;
+                  fill: var(--commercial-template-blue);
+                }
+              }
+            }
+          }
+
+          max-width: 1500px !important;
+          --gutter-x: 30px;
+          --gutter-y: 0;
+          padding-right: calc(var(--gutter-x) * 0.5);
+          margin-right: auto;
+          margin-left: auto;
+
+          @media screen and (max-width: $desktop-extra-large) {
+            min-width: 1300px;
+          }
+
+          @media screen and (max-width: $desktop-large) {
+            min-width: 1100px;
+          }
+
+          @media screen and (max-width: $desktop) {
+            min-width: 900px;
+          }
+
+          @media screen and (max-width: 925px) {
+            padding-left: calc((var(--gutter-x) * 0.5));
+          }
+
+          @media screen and (max-width: $mobile) {
+            min-width: 0px !important;
+            width: 100% !important;
+            padding: 0;
+            margin: 0;
+
+            :global {
+              .ant-tabs-tab {
+                padding: 0px;
+                width: 33%;
+                display: flex;
+                justify-content: center;
+
+                :local .tab-label {
+                  width: 100%;
+                  margin: 0 auto;
+                  // flex-direction: column;
+                  flex-direction: row;
+                  gap: 4px;
+                  align-items: center;
+                  font-size: 12px;
+                  :global {
+                    .anticon {
+                      margin-right: 0px;
+                      font-size: 16px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

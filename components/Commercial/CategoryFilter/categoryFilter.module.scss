@@ -1,0 +1,38 @@
+@import "../../../styles/breakpoints";
+
+.filter-wrapper {
+    display: none !important;
+    // margin-top: 30px;
+    margin-bottom: 20px;
+    flex-direction: row !important;
+    justify-content: space-between;
+
+    :global {
+        .ant-select {
+            width: 300px;
+        }
+    }
+
+    .view-btn {
+        width: max-content;
+        padding: 0px;
+        font-size: 16px;
+        color: var(--login-buttons-primary-color);
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .filter-wrapper {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: $mobile-smallPlusOne) {
+    .filter-wrapper {
+        :global {
+            .ant-select {
+                width: 200px;
+            }
+        }
+    }
+}

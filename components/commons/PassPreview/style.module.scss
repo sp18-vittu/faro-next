@@ -1,0 +1,136 @@
+@import "../../../styles/breakpoints";
+@import "../../../styles/extend.scss";
+
+.pass-wrapper {
+  max-width: 450px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1.04651px solid rgba(0, 0, 0, 0.09);
+  box-shadow: 8.9125px 8.16979px 31.9364px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  .loading {
+    text-align: center;
+    padding: 60px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .pass-area {
+    border: solid 1px #c9c9c9;
+    border-radius: 13px;
+    border-top: transparent;
+    .pass-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      border-radius: 10px 10px 0 0;
+      p {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px;
+        span {
+          font-size: 14px;
+        }
+      }
+      .pass-logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        h2 {
+          margin: 0;
+          font-family: "Poppins", sans-serif;
+          font-size: 18px;
+          font-weight: 500;
+          letter-spacing: -0.2px;
+        }
+      }
+    }
+    .pass-content-wrapper {
+      border-radius: 0 0 10px 10px;
+      .pass-image {
+        width: 100%;
+        height: 200px;
+        position: relative;
+        margin-bottom: 10px;
+      }
+      .pass-content {
+        padding: 0 15px;
+        h3 {
+          font-family: "Poppins", sans-serif;
+          font-size: 15px;
+          font-weight: 500;
+          text-transform: uppercase;
+          margin: 0;
+        }
+        p {
+          margin: 0;
+          font-family: "Poppins", sans-serif;
+          font-size: 15px;
+          font-weight: 300;
+        }
+        .qr-code {
+          text-align: center;
+          margin-top: 25px;
+          padding-bottom: 20px;
+
+          .image {
+            width: 100%;
+          }
+          &.hide-instructions {
+            @media screen and (max-width: $mobile-smallPlusOne) {
+              p {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .button {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+.close-button-container {
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.black-button {
+  background: #000 !important;
+  font-size: 12px !important;
+  width: auto !important;
+  border-radius: 6px !important;
+  min-width: 100px;
+  border-radius: 10px;
+  color: white;
+  &:hover {
+    border: none !important;
+    color: #fff !important;
+  }
+  margin: auto;
+}
+
+.commercial-black-button {
+  margin-bottom: 10px;
+  @extend .primary-button;
+  &:hover {
+    @extend .primary-button-hover;
+  }
+}

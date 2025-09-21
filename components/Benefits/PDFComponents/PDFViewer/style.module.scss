@@ -1,0 +1,28 @@
+.modalContent {
+  position: relative;
+  border-radius: 21px;
+  background: #fff;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 4px;
+  outline: none;
+  padding: 0;
+  overflow-y: auto;
+  height: 500px;
+  font-family: "Inter", sans-serif;
+  &.full-screen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+  }
+  .full-screen-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 9999;
+    cursor: pointer;
+  }
+}
